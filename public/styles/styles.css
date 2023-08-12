@@ -1,0 +1,63 @@
+body {
+	background: linear-gradient(-45deg, #f4d92a, #cc55ae, #7e60ea, #2fb8d1);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+    font-family:fantasy;
+    font-size: 55px;
+    font-weight: 500;
+    font-style: italic;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2{
+    font-family:fantasy;
+    font-size: 45px;
+    font-weight: 500;
+    font-style: italic;
+}
+.card-header{
+    background-color: #9c87e7;
+}
+.card{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: #d9cfff;
+}
+button{
+    background-color: #9c87e7;
+    outline-style: none;
+    border-radius: 6px;
+    border-style: none;
+    height: 30px;
+    width: auto;
+}
+button:hover{
+    height: 32px;
+    width: 85px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 85%;
+ }
