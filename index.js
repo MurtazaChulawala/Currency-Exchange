@@ -36,6 +36,6 @@ app.post("/",async (req,res)=>{
     }
 })
 // listening on a port to handle the requests
-app.listen(3000,(req,res)=>{
-    console.log("server listening on port 3000");
+app.listen(process.env.PORT||3000,(req,res)=>{
+    console.log("server is listening");
 })
